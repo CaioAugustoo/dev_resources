@@ -1,0 +1,73 @@
+#colection__resource {
+  margin: 5.5625rem 0rem 0.625rem 0rem;
+  height: auto;
+}
+
+#site__card {
+  background-color: #ffffff;
+  width: 28.125rem;
+  min-height: 14.375rem;
+  -webkit-box-shadow: 0 0.625rem 2.5rem -0.625rem rgba(0, 0, 0, 0.1);
+          box-shadow: 0 0.625rem 2.5rem -0.625rem rgba(0, 0, 0, 0.1);
+  margin: 0.9375rem;
+  padding: 0.9375rem;
+  border: 0.0625rem solid rgba(128, 128, 128, 0.102);
+  border-radius: 0.4375rem;
+  text-align: left;
+  -webkit-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+  cursor: pointer;
+}
+
+#site__card #site__card__title {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+#site__card #site__card__title img {
+  -webkit-transition: all .3s ease;
+  transition: all .3s ease;
+  opacity: 0;
+  margin-left: -0.625rem;
+  width: 2.1875rem;
+  margin-top: 0.375rem;
+}
+
+#site__card:hover {
+  -webkit-box-shadow: 0 0.625rem 2.5rem -0.3125rem rgba(0, 0, 0, 0.15);
+          box-shadow: 0 0.625rem 2.5rem -0.3125rem rgba(0, 0, 0, 0.15);
+  -webkit-transform: translateY(-0.3125rem);
+          transform: translateY(-0.3125rem);
+}
+
+#site__card:hover #site__card__title img {
+  opacity: 1;
+  margin-left: 0rem;
+}
+
+#site__card__icon img {
+  width: 3.75rem;
+  border-radius: 0.5rem;
+  margin-bottom: 5px;
+  vertical-align: middle;
+}
+
+#site__card__about {
+  margin: 15px 0px;
+  font-size: 0.88rem;
+  opacity: 0.7;
+  font-weight: 400;
+  max-width: 23.75rem;
+}
+
+#site__card__category {
+  max-width: 4.0625rem;
+  border-radius: 6.25rem;
+  padding: 0.5125rem 0.8125rem;
+  font-size: 0.9rem;
+}
+/*# sourceMappingURL=style.css.map */

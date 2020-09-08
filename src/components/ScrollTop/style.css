@@ -1,0 +1,18 @@
+button {
+  background-color: #4378FF;
+  border-radius: 6.25rem;
+  position: fixed;
+  bottom: .9375rem;
+  right: 1rem;
+  border: 0.0625rem solid #4378FF;
+  padding: 0.4375rem 0.5rem;
+  -webkit-transition: all .3s ease;
+  transition: all .3s ease;
+  cursor: pointer;
+}
+
+button:hover {
+  -webkit-transform: translateY(-0.3125rem);
+          transform: translateY(-0.3125rem);
+}
+/*# sourceMappingURL=style.css.map */
